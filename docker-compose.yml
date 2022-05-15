@@ -1,0 +1,18 @@
+version: "3.5"
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: database
+    volumes:
+      - ./docker/mysql:/var/lib/mysql
+    env_file:
+      - docker/mysql.env
+    ports:
+      - "3306:3306"
+    cap_add:
+      - SYS_NICE
+
+volumes:
+  mysql:
+    driver: local

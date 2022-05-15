@@ -1,0 +1,9 @@
+name: PlayPermsBungee
+author: IC1101
+version: 0.0.1
+
+main: io.ic1101.playperms.bungee.PlayPermsBungeePlugin
+
+commands:
+  playperms:
+  create:

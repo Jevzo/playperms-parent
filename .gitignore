@@ -1,0 +1,7 @@
+playperms-bungee/target
+playperms-library/target
+playperms-spigot/target
+.idea/
+docker/mysql
+docker/mysql.env
+*.iml
